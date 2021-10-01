@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Stick+No+Bills:wght@500&display=swap');
+
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F);
+    background-size: 600% 200%;
+    position: relative;
+    animation: change 10s ease infinite;
+    font-family: 'Stick No Bills', sans-serif;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.tudo{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 140px;
+    font-weight: bolder;
+}
+p{
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.regras{
+    text-align: center;
+    font-weight: bolder;
+}
+li{
+    list-style: none;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.au{
+    text-align: center;
+}
+.btn{
+    width: 350px;
+    margin-bottom: 60px;
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid black !important;
+    transition: all 0.5s ease;
+    text-align: center;
+    align-items: center;
+}
+.btn:hover{
+    color: black;
+    background: none;
+    font-weight: bolder;
+}
